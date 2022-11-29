@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body{
+    background-image: url('../images/shop.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-dark{
+    background: black!important;
+}
+
+.btn-center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    
+}
+
+.btn-dark{
+    background: black;
+}
+
+.form-center{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+input[type=text]{
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+
+input[type=password]{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=number]{
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+
+input[type=search]{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=text]:focus{
+    color: blue;
+    border: 1px solid blue;
+}
+
+input[type=datetime-local]:focus{
+    color: blue;
+    border: 1px solid blue;
+}
+
+label{
+    color: black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    color: blue!important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    color: white!important;
+}
+
+.side-menu{
+    background: black
+}
+
+.picBox{
+    border: .1rem black solid;
+    width: 180px;
+    height: 220px;
+    
+}
+
+.picBox1{
+    border: .1rem black solid;
+    width: 320px;
+    height: 200px;
+    
+}
+
+.text-info{
+    color:blue!important;
+}
